@@ -10,7 +10,7 @@ while numberofprimes < 10:
         if number % i ==0:
              isprime =False
     if isprime == True:
-        print(number)
+        print(number, end=" ")
         numberofprimes +=1
     number +=1
 
