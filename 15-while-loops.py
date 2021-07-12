@@ -97,6 +97,9 @@ dict["Oscar"] = 25
 for key, value in dict.items():
     print(key + " is " + str(value) + " years")
 
+#we can define a dictionary as: d = {}
+#or                             d = {"George":24, "Tom": 32}
+# keys are commmonly strings or numbers
 
 
 
