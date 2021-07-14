@@ -37,7 +37,7 @@ class Person:
     def sit_down(self):
         self.is_sitting = True
     def stand_up(self):
-        self.is_sitting = false
+        self.is_sitting = False
 
 p1 = Person("Alice", "aggressive", False)        ## clean code is better
 p2 = Person("Becky", "talkative", True)

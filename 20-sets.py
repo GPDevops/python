@@ -1,14 +1,14 @@
 ## sets in phyton
-## a set is atype of data that stores a set of things
+## a set is a type of data that stores a set of things
 ## a set of unique things
-## {1,3} <- 3
+## {1,3} <- 3 if we try to add 3 to the set, nothing happens
 ## ->{1,3}
 
-a =set()
-print(a)
+a = set()
+print(a)        #empty set
 
 a.add(1)
-print(a)
+print(a)        #set with 1 element
 
 a.add(2)
 print(a)
