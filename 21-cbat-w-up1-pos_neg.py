@@ -6,11 +6,10 @@
 #pos_neg(-4, -5, True) → True
 
 def pos_neg(a,b,negative):
-    if negative == False and (a < 0 or b > 0) :
-        return True
-    elif negative == False and (b < 0 or a > 0) :
-        return True       
-    else:
-        return False
-a = pos_neg(-1,-1, True)
+    if negative:
+        return  (a < 0 or b < 0)
+    else: 
+        return ((a < 0 and b > 0) or (a > 0 and b < 0))
+           
+a = pos_neg(-2,-1, False)
 print(a)
