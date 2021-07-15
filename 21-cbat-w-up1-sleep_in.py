@@ -8,7 +8,7 @@
 ##sleep_in(False, False) → True
 ##sleep_in(True, False) → False
 ##sleep_in(False, True) → True
-## sleep_in(true, True) -> True
+##sleep_in(true, True) -> True
 
 def sleep_in(weekday, vacation):
     if weekday == False or vacation == True:
