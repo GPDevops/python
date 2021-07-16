@@ -11,6 +11,9 @@
 def string_times(str,n):
     return str*n
 
+a = string_times("Hola",3)
+print(a)
+
 
 
 
