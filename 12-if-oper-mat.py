@@ -1,7 +1,7 @@
 #Programa para utilizar los operadores matematicos
 #Comparacion de numeros ingresados por teclado con operadores matematicos
 print("+++++++++++++++++++++++++++++++++++++++++")
-print("Comparar 2 numeros ingresados por teclado")
+print("Comparar 2 numeros ingresados por teclado....")
 print("+++++++++++++++++++++++++++++++++++++++++")
 numero1 = int(input("Ingrese el 1er. numero: "))
 numero2 = int(input("Ingrese el 2do. numero: "))
