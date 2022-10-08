@@ -10,9 +10,9 @@ numero1 = int(input("Ingresar el 1er. numero: "))
 numero2 = int(input("Ingresar el 2do. numero: "))
 numero3 = int(input("Ingresar el 3er. numero: "))
 if numero1 > numero2 and numero1 > numero3:
-    print("El numero, ", numero1, + " es el mas grande todos")
+    print("El numero, ", numero1, + " es el mas grande de todos")
 else:
     if numero2 > numero3:
-        print("El numero, ", numero2, " es el mas grande todos")
+        print("El numero, ", numero2, " es el mas grande de todos")
     else:
         print("El numero, ", numero3, " es el mas grande todos")
