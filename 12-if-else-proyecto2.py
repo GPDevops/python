@@ -7,7 +7,7 @@
 print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print("determinar si un numero ingresado por teclado es para o impar")
 print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-numero = int(input("Ingrese cualquier numero par: "))
+numero = int(input("Ingrese cualquier numero: "))
 if numero%2 == 0:
     print("El numero ", numero, "es par")
 else:
