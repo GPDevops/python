@@ -3,7 +3,7 @@
 print ("+++++++++++++++++++++++++++++++++++++++++++++++")
 print ("CONVERSOR DE NUMEROS '1-5' A LETRAS y VICEVERSA")
 print ("+++++++++++++++++++++++++++++++++++++++++++++++ \n")
-print ("Ingrese la opcion que requiere: '1 = conversor de numeros a letras o 2 = conversor de letras a numeros'")
+print ("Ingrese la opcion que requiere: \n '1 = conversor de numeros a letras o 2 = conversor de letras a numeros'")
 opcion = int(input("Ingrese la opcion: "))
 #print(opcion)
 if opcion == 1:
