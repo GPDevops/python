@@ -1,21 +1,24 @@
 #Tipo de datos boolean
 #function type transforma el tipo de dato de lo que se encuentra entre parentesis
-type("microsoft")
-type(4)
-type(True)
+x="microsoft"
+print("El valor ingresado anteriormente es un: ", type(x))
+y=4
+print("El valor ingresado anteriormente es un: ", type(y))
+
+#Comparacion de valores con salida boolean
 a = 3
 b = 1
 if a > b:
     print("a is greater than b")
 if True:
-    print("a es greater than b")
+    print("a is greater than b")
 boolean_value = a > b
 print(boolean_value)
 if boolean_value:
     print("a is greater than b")
 #definiendo una funcion
 def are_you_sad(is_rainy, has_umbrella):
-    if is_rainy == True and has_umbrella == False:
+    if is_rainy == True and has_umbrella == True:
         return True
     else:
         return False
