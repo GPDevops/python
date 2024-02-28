@@ -104,7 +104,7 @@ else:
 ##CWDC
 ##create a function highestCommonFactor which returns
 ##the highest number that divides into two other numbers exactly
-"""
+
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print("Programa para calcular maximum comun divisor MCD entre 2 numeros")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
@@ -120,15 +120,16 @@ fact2 = int(input("Ingrese el numero y: "))
 print ("El MCD es: " + str(maximumCommonFactor(fact1,fact2)))
 
 """""
+""""
 a=5
 b=6
 def addTwoNumbers():
     return a+b
 print(addTwoNumbers())
 """
-"""
+
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-print("Programa para calcular minimo comun multiplo MCM entre 2 numeros")
+print("Programa para calcular el MCM y el MCD entre 2 numeros")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 num1 = int(input("Ingresa numero A: "))
@@ -136,18 +137,17 @@ num2 = int(input("Ingresa numero B: "))
 
 A = max(num1,num2)
 B = min(num1,num2)
-print(A)
-print(B)
+print("Numero mayor: ", A)
+print("Numero menor: ", B)
 
 ##def minimumCommonFactor(x,y):
 while B !=0:
-    mcd =   B
+    MCD =   B
     B   =   A%B
-    A   =   mcd
+    A   =   MCD
     print(A,B)
-mcm = (num1*num2) // mcd
+MCM = (num1*num2) // MCD
      
      
-print ("El MCD de {0} y {1} es {2}". format(num1,num2, mcd))
-print ("El MCM de {0} y {1} es {2}". format(num1,num2, mcm))
-"""
+print ("El MCD de {0} y {1} es {2}". format(num1,num2, MCD))
+print ("El MCM de {0} y {1} es {2}". format(num1,num2, MCM))
