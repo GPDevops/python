@@ -3,7 +3,7 @@
 print ("+++++++++++++++++++++++++++++++++++++++++++++++")
 print ("CONVERSOR DE NUMEROS '1-5' A LETRAS y VICEVERSA")
 print ("+++++++++++++++++++++++++++++++++++++++++++++++ \n")
-print ("Ingrese la opcion que requiere: \n'1 = conversor de numeros a letras o 2 = conversor de letras a numeros'")
+print ("Ingrese la opcion que requiere: \n 1 = conversor de numeros a letras o 2 = conversor de letras a numeros'")
 opcion = int(input("Ingrese la opcion: "))
 #print(opcion)
 if opcion == 1:
@@ -18,7 +18,7 @@ if opcion == 1:
     elif opcion1 == 4:
         print("El numero ingresado es: 'cuatro'")
     elif opcion1 == 5:
-        print("El numero ingresado es: 'cinco1'")
+        print("El numero ingresado es: 'cinco'")
     else:
         print("El numero elegido no esta en el rango del 1-5. Vuelva a intentar! \n")    
 elif opcion == 2:
