@@ -9,7 +9,7 @@ fisica = float(input("Por favor ingresar la nota de fisica: "))
 geometria = float(input("Por favor ingresar la nota de geometria: "))
 quimica = float(input("Por favor ingresar la nota de quimica: "))
 
-calculo = (algebra + fisica + geometria + quimica)/4
+calculo = float(algebra + fisica + geometria + quimica)/4
 
 if calculo <=8:
     print("Lo sentimos, " + nombre + " Su promedio es: " + str(calculo))
