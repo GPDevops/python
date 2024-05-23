@@ -20,7 +20,15 @@
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print("programa para determinar los dias de vacaciones de un trabajador de acuerdo a sus anios de trabajo")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-nombre = input("Por favor ingrese su nombre: ")
+while True:
+    nombre = input("Por favor ingrese su nombre: ")
+
+    if nombre.isalpha():
+        print(f"¡Hola, {nombre}! Has ingresado un nombre válido.")
+        break
+    else:
+        print("El nombre debe contener solo letras. Inténtalo nuevamente.")
+
 clave = int(input("Por favor ingresar su clave de departamento: "))
 anios = float(input("Por favor ingresar los anios de antiguedad: "))
 if clave == 1:
