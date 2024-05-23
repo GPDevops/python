@@ -22,24 +22,31 @@ print("programa para determinar los dias de vacaciones de un trabajador de acuer
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 while True:
     nombre = input("Por favor ingrese su nombre: ")
-
     if nombre.isalpha():
         print(f"¡Hola, {nombre}! Has ingresado un nombre válido.")
         break
     else:
         print("El nombre debe contener solo letras. Inténtalo nuevamente.")
 
-clave = int(input("Por favor ingresar su clave de departamento: "))
-anios = float(input("Por favor ingresar los anios de antiguedad: "))
+while True:
+    clave = int(input("Por favor ingresar su clave de departamento: "))
+    if clave < 4:
+        print("Opcion de clave valida")
+        break
+    else:
+        print("Opcion de clave no valida")
+
+
+anios = float(input("Por favor ingresar los anios de antiguedad: "))   
 if clave == 1:
     if anios >= 1 and anios < 2:
-        print("Sr, ", nombre, "Ud tiene derecho a: 6 dias de vacaciones")
+                print("Sr, ", nombre, "Ud tiene derecho a: 6 dias de vacaciones")
     elif anios >= 2 and anios < 7:
-        print("Sr, ", nombre, "Ud tiene derecho a: 14 dias de vacaciones")
+                    print("Sr, ", nombre, "Ud tiene derecho a: 14 dias de vacaciones")
     elif anios >= 7:
-        print("Sr, ", nombre, "Ud tiene derecho a: 20 dias de vacaciones")
+                    print("Sr, ", nombre, "Ud tiene derecho a: 20 dias de vacaciones")
     else:
-        print("Opcion de anios no valida. Ud no tiene vacaciones")
+                    print("Opcion de anios no valida. Ud no tiene vacaciones")
 elif clave == 2:
     if anios >= 1 and anios < 2:
         print("Sr, ", nombre, "Ud tiene derecho a: 7 dias de vacaciones")
